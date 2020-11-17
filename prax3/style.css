@@ -1,0 +1,310 @@
+* {box-sizing: border-box;}
+
+@media screen and (max-width: 1000px) {
+	
+	.topnav {
+		height: 75px;
+		font-size: 35px;
+	}
+  
+  .login, .signup {
+		margin-left: 5%;
+		margin-top: 20%;
+		font-size: 40px;
+	}
+	
+	.loginH2, .signupH2 {
+		margin-left: 50px;
+		margin-bottom: 30px;
+	}
+	
+	.loginButton, .signupButton, .descriptionButton, .locationButton, .submitButtonProfile {
+		font-size: 40px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		border-color: #F37B6F;
+		width: 160px;
+		height: 100px;
+	}
+
+	.loginButton, .signupButton {
+		margin-left: 10px;
+	}
+
+	.loginButton:hover, .signupButton:hover, .descriptionButton:hover, .locationButton:hover, .submitButtonProfile:hover, .friends:hover {
+		background-color: white;
+		color: #EB6261;
+	}
+	
+	.index {
+		width: 60%;
+		margin-left: 20%;
+		margin-top: 40%;
+	}
+
+	.indexButton {
+		width: 45%;
+		height: 75px;
+		font-size: 40px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		border-color: #F37B6F;
+	}
+	
+	.signup {
+		width: 30%;
+		margin-left: 5%;
+	}
+	
+	.error {
+		color: red;
+		font-size: 30px;
+	}
+	
+	#email, #password, #firstname, #lastname, #password1, #password2 {
+		font-size: 35px;
+	}
+	
+	#location, #description, #postText, #comment {
+		font-size: 25px;
+	}
+	
+	
+	.searchButton, .searchForm {
+		font-size: 30px;
+	}
+	
+	.content {
+		margin-top: 40px;
+		float: left;
+		margin-left: 10%;
+		width: 50%;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	.post {
+		float: left;
+		width: 45%;
+	}
+
+	.repost {
+		float: right;
+		width: 45%;
+	}
+	
+	.postDiv {
+		display: block;
+		padding: 5px;
+		border: 5px solid #F8F8FF;    
+		background-color: #F0FFF0;
+		overflow: hidden;
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+	
+	.requests {
+		font-size: 30px;
+	}
+	
+	.friends {
+		font-size: 30px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		text-decoration: none;
+		padding: 5px;
+	}
+	
+	.friendRequest {
+		width: 80%;
+		height: 50px;
+		font-size: 20px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		border-color: #F37B6F;
+		font-size: 30px;
+	}
+  
+}
+
+@media screen and (min-width: 1001px) {
+	.login, .signup {
+		margin-left: 35%;
+		margin-top: 10%;
+		font-size: 20px;
+	}
+	
+	.loginH2, .signupH2 {
+		margin-left: 110px;
+		margin-bottom: 30px;
+	}
+	
+	.loginButton, .signupButton, .descriptionButton, .locationButton, .submitButtonProfile {
+		font-size: 20px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		border-color: #F37B6F;
+		width: 100px;
+		height: 40px;
+	}
+
+	.loginButton, .signupButton {
+		margin-left: 35px;
+	}
+
+	.loginButton:hover, .signupButton:hover, .descriptionButton:hover, .locationButton:hover, .submitButtonProfile:hover, .friends:hover {
+		background-color: white;
+		color: #EB6261;
+	}
+	
+	.index {
+		width: 30%;
+		margin-left: 35%;
+		margin-top: 20%;
+	}
+
+	.indexButton {
+		width: 45%;
+		height: 50px;
+		font-size: 20px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		border-color: #F37B6F;
+	}
+	
+	.signup {
+		width: 20%;
+		margin-left: 40%;
+		margin-right: 40%;
+	}
+	
+	.error {
+		color: red;
+		font-size: 16px;
+	}
+	
+	.content {
+		margin-top: 40px;
+		float: left;
+		margin-left: 30%;
+		width: 40%;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.post {
+		float: left;
+		width: 45%;
+	}
+
+	.repost {
+		float: right;
+		width: 45%;
+	}
+	
+	.postDiv {
+		display: block;
+		padding: 5px;
+		border: 5px solid #F8F8FF;    
+		background-color: #F0FFF0;
+		overflow: hidden;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+	
+	.friends {
+		font-size: 20px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		text-decoration: none;
+		padding: 5px;
+	}
+	
+	.friendRequest {
+		font-size: 18px;
+		background-color: #EB6261;
+		color: white;
+		cursor: pointer;
+		border-color: #F37B6F;
+		font-size: 30px;
+	}
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.requests {
+	float: right;
+	margin-right: 10%;
+}
+
+.topnav {
+	width: 100%;
+  overflow: hidden;
+  background-color: #EB6261;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #EB6261;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 5px;
+  background: #EB6261;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: white;
+  color: #EB6261;
+}
+
+.indexButton:hover, .friendRequest:hover {
+	background-color: white;
+	color: #EB6261;
+}
+
+.loginForm, .signupForm {
+	margin-left: 75px;
+}
+
+.postButton {
+	text-decoration: none;
+	color: black;
+}
